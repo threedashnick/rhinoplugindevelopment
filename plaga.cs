@@ -29,7 +29,7 @@ namespace CSProjectTemplate1
             get { return "CSProjectTemplate1Command"; }
         }
 
-        protected override Result RunCommand(RhinoDoc doc, RunMode mode)
+        protected override Result RunCommand(RhinoDoc doc, RunMode mode)                                    // всё происходит здесь внутри
         {
             // TODO: start here modifying the behaviour of your command.
             // ---
